@@ -10,9 +10,9 @@ env:
 # Triggers the workflow on push or pull request events for the master branch.
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
